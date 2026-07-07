@@ -11,3 +11,4 @@
 - **2026-07-07 16:00** [clean up] tests: add metadata fields to sessions
 - **2026-07-07 17:04** [refactor] decision logic: adjust retry delays
 - **2026-07-07 17:24** [refactor] routes: add candidate mock data
+- **2026-07-07 17:47** [chore] curriculum: format code with black guidelines
