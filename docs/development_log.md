@@ -12,3 +12,4 @@
 - **2026-07-07 17:04** [refactor] decision logic: adjust retry delays
 - **2026-07-07 17:24** [refactor] routes: add candidate mock data
 - **2026-07-07 17:47** [chore] curriculum: format code with black guidelines
+- **2026-07-07 19:45** [test] curriculum: update error messages
