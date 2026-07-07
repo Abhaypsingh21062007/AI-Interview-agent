@@ -10,3 +10,4 @@
 - **2026-07-07 14:43** [test] session store: improve exception handling
 - **2026-07-07 16:00** [clean up] tests: add metadata fields to sessions
 - **2026-07-07 17:04** [refactor] decision logic: adjust retry delays
+- **2026-07-07 17:24** [refactor] routes: add candidate mock data
