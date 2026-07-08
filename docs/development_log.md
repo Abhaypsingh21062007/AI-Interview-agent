@@ -18,3 +18,4 @@
 - **2026-07-08 10:46** [test] generator: adjust prompt constraints
 - **2026-07-08 12:41** [clean up] orchestrator: adjust prompt constraints
 - **2026-07-08 13:42** [test] curriculum: improve logging structure
+- **2026-07-08 15:05** [style] generator: update error messages
