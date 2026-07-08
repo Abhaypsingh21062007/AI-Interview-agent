@@ -16,3 +16,4 @@
 - **2026-07-08 09:59** [fix] config: clarify session transition criteria
 - **2026-07-08 10:26** [fix] logger: add metadata fields to sessions
 - **2026-07-08 10:46** [test] generator: adjust prompt constraints
+- **2026-07-08 12:41** [clean up] orchestrator: adjust prompt constraints
