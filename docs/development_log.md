@@ -15,3 +15,4 @@
 - **2026-07-07 19:45** [test] curriculum: update error messages
 - **2026-07-08 09:59** [fix] config: clarify session transition criteria
 - **2026-07-08 10:26** [fix] logger: add metadata fields to sessions
+- **2026-07-08 10:46** [test] generator: adjust prompt constraints
