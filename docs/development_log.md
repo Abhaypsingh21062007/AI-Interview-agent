@@ -21,3 +21,4 @@
 - **2026-07-08 15:05** [style] generator: update error messages
 - **2026-07-08 16:39** [chore] logger: simplify imports
 - **2026-07-08 17:24** [style] logger: simplify imports
+- **2026-07-08 19:10** [feat] tests: clean up commented-out code
