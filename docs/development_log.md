@@ -22,3 +22,4 @@
 - **2026-07-08 16:39** [chore] logger: simplify imports
 - **2026-07-08 17:24** [style] logger: simplify imports
 - **2026-07-08 19:10** [feat] tests: clean up commented-out code
+- **2026-07-08 19:54** [test] data loader: refine LLM prompt template
