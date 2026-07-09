@@ -28,3 +28,4 @@
 - **2026-07-09 11:19** [style] selector: optimize loops
 - **2026-07-09 12:41** [tweak] decision logic: optimize loops
 - **2026-07-09 13:52** [clean up] logger: improve exception handling
+- **2026-07-09 15:18** [feat] candidate context: add detailed docstrings
