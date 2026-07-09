@@ -30,3 +30,4 @@
 - **2026-07-09 13:52** [clean up] logger: improve exception handling
 - **2026-07-09 15:18** [feat] candidate context: add detailed docstrings
 - **2026-07-09 16:39** [chore] selector: update test inputs
+- **2026-07-09 18:17** [fix] technical spec: add detailed docstrings
