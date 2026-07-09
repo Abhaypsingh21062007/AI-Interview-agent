@@ -24,3 +24,4 @@
 - **2026-07-08 19:10** [feat] tests: clean up commented-out code
 - **2026-07-08 19:54** [test] data loader: refine LLM prompt template
 - **2026-07-09 09:13** [fix] tests: check connection timeouts
+- **2026-07-09 10:41** [fix] generator: clarify session transition criteria
