@@ -26,3 +26,4 @@
 - **2026-07-09 09:13** [fix] tests: check connection timeouts
 - **2026-07-09 10:41** [fix] generator: clarify session transition criteria
 - **2026-07-09 11:19** [style] selector: optimize loops
+- **2026-07-09 12:41** [tweak] decision logic: optimize loops
