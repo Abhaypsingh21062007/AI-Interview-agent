@@ -32,3 +32,4 @@
 - **2026-07-09 16:39** [chore] selector: update test inputs
 - **2026-07-09 18:17** [fix] technical spec: add detailed docstrings
 - **2026-07-10 09:05** [test] selector: add candidate mock data
+- **2026-07-10 10:27** [feat] tests: improve logging structure
