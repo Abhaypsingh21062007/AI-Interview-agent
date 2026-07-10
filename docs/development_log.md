@@ -36,3 +36,4 @@
 - **2026-07-10 10:45** [docs] analyzer: clarify session transition criteria
 - **2026-07-10 11:13** [test] technical spec: refine LLM prompt template
 - **2026-07-10 11:38** [refactor] candidate context: update test inputs
+- **2026-07-10 12:16** [refactor] generator: update test inputs
