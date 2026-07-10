@@ -38,3 +38,4 @@
 - **2026-07-10 11:38** [refactor] candidate context: update test inputs
 - **2026-07-10 12:16** [refactor] generator: update test inputs
 - **2026-07-10 13:46** [style] session store: add validation rules
+- **2026-07-10 15:33** [tweak] technical spec: refine LLM prompt template
