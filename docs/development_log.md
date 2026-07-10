@@ -34,3 +34,4 @@
 - **2026-07-10 09:05** [test] selector: add candidate mock data
 - **2026-07-10 10:27** [feat] tests: improve logging structure
 - **2026-07-10 10:45** [docs] analyzer: clarify session transition criteria
+- **2026-07-10 11:13** [test] technical spec: refine LLM prompt template
