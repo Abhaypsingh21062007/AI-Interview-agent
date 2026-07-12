@@ -42,3 +42,4 @@
 - **2026-07-10 16:37** [tweak] tests: add candidate mock data
 - **2026-07-11 16:52** [tweak] logger: verify coverage rules
 - **2026-07-12 17:45** [fix] decision logic: refine LLM prompt template
+- **2026-07-12 18:42** [style] generator: simplify imports
