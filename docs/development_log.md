@@ -46,3 +46,4 @@
 - **2026-07-13 09:13** [docs] decision logic: simplify imports
 - **2026-07-13 11:02** [fix] curriculum: refine LLM prompt template
 - **2026-07-13 12:35** [test] curriculum: add candidate mock data
+- **2026-07-13 12:51** [docs] curriculum: adjust prompt constraints
