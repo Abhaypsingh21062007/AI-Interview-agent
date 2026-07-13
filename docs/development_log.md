@@ -47,3 +47,4 @@
 - **2026-07-13 11:02** [fix] curriculum: refine LLM prompt template
 - **2026-07-13 12:35** [test] curriculum: add candidate mock data
 - **2026-07-13 12:51** [docs] curriculum: adjust prompt constraints
+- **2026-07-13 14:04** [feat] technical spec: adjust prompt constraints
