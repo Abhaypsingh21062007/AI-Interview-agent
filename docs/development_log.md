@@ -43,3 +43,4 @@
 - **2026-07-11 16:52** [tweak] logger: verify coverage rules
 - **2026-07-12 17:45** [fix] decision logic: refine LLM prompt template
 - **2026-07-12 18:42** [style] generator: simplify imports
+- **2026-07-13 09:13** [docs] decision logic: simplify imports
