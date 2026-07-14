@@ -52,3 +52,4 @@
 - **2026-07-13 16:10** [tweak] orchestrator: update test inputs
 - **2026-07-13 17:25** [tweak] session store: add detailed docstrings
 - **2026-07-13 18:02** [test] schemas: add candidate mock data
+- **2026-07-14 10:20** [style] technical spec: improve logging structure
