@@ -66,3 +66,4 @@
 - **2026-07-15 14:26** [feat] curriculum: enhance terminal outputs
 - **2026-07-15 14:42** [docs] candidate context: tune openapi client configurations
 - **2026-07-15 16:25** [style] candidate context: optimize loops
+- **2026-07-15 17:29** [chore] candidate context: enhance terminal outputs
