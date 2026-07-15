@@ -64,3 +64,4 @@
 - **2026-07-15 11:05** [clean up] logger: clean up commented-out code
 - **2026-07-15 12:48** [docs] session store: enhance terminal outputs
 - **2026-07-15 14:26** [feat] curriculum: enhance terminal outputs
+- **2026-07-15 14:42** [docs] candidate context: tune openapi client configurations
