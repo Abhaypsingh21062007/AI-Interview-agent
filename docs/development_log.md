@@ -73,3 +73,4 @@
 - **2026-07-16 12:06** [docs] routes: improve exception handling
 - **2026-07-16 13:29** [chore] analyzer: add validation rules
 - **2026-07-16 14:24** [chore] candidate context: simplify imports
+- **2026-07-16 15:13** [tweak] curriculum: add metadata fields to sessions
