@@ -75,3 +75,4 @@
 - **2026-07-16 14:24** [chore] candidate context: simplify imports
 - **2026-07-16 15:13** [tweak] curriculum: add metadata fields to sessions
 - **2026-07-16 16:31** [refactor] tests: clean up commented-out code
+- **2026-07-16 17:41** [test] tests: tune openapi client configurations
