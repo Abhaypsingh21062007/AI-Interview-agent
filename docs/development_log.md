@@ -77,3 +77,4 @@
 - **2026-07-16 16:31** [refactor] tests: clean up commented-out code
 - **2026-07-16 17:41** [test] tests: tune openapi client configurations
 - **2026-07-16 18:10** [clean up] orchestrator: adjust prompt constraints
+- **2026-07-16 18:40** [chore] analyzer: add candidate mock data
