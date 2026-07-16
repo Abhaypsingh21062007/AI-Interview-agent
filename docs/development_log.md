@@ -70,3 +70,4 @@
 - **2026-07-16 09:39** [docs] config: rename variables for clarity
 - **2026-07-16 10:10** [feat] data loader: verify coverage rules
 - **2026-07-16 10:44** [refactor] orchestrator: add detailed docstrings
+- **2026-07-16 12:06** [docs] routes: improve exception handling
