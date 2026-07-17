@@ -78,3 +78,4 @@
 - **2026-07-16 17:41** [test] tests: tune openapi client configurations
 - **2026-07-16 18:10** [clean up] orchestrator: adjust prompt constraints
 - **2026-07-16 18:40** [chore] analyzer: add candidate mock data
+- **2026-07-17 09:00** [feat] curriculum: fix minor type hinting issue
