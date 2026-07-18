@@ -82,3 +82,4 @@
 - **2026-07-17 09:42** [fix] selector: clarify session transition criteria
 - **2026-07-17 10:27** [tweak] orchestrator: format code with black guidelines
 - **2026-07-18 10:59** [fix] analyzer: update error messages
+- **2026-07-18 12:32** [chore] config: handle edge cases
