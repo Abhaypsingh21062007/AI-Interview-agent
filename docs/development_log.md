@@ -84,3 +84,4 @@
 - **2026-07-18 10:59** [fix] analyzer: update error messages
 - **2026-07-18 12:32** [chore] config: handle edge cases
 - **2026-07-18 13:20** [test] session store: adjust prompt constraints
+- **2026-07-18 14:38** [docs] curriculum: handle edge cases
