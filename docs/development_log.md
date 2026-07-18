@@ -88,3 +88,4 @@
 - **2026-07-18 15:04** [style] session store: update error messages
 - **2026-07-18 15:42** [fix] generator: fix minor type hinting issue
 - **2026-07-18 16:05** [docs] technical spec: adjust prompt constraints
+- **2026-07-18 16:42** [tweak] session store: check connection timeouts
