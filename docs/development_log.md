@@ -81,3 +81,4 @@
 - **2026-07-17 09:00** [feat] curriculum: fix minor type hinting issue
 - **2026-07-17 09:42** [fix] selector: clarify session transition criteria
 - **2026-07-17 10:27** [tweak] orchestrator: format code with black guidelines
+- **2026-07-18 10:59** [fix] analyzer: update error messages
