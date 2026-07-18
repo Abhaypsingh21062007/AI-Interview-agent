@@ -86,3 +86,4 @@
 - **2026-07-18 13:20** [test] session store: adjust prompt constraints
 - **2026-07-18 14:38** [docs] curriculum: handle edge cases
 - **2026-07-18 15:04** [style] session store: update error messages
+- **2026-07-18 15:42** [fix] generator: fix minor type hinting issue
