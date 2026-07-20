@@ -93,3 +93,4 @@
 - **2026-07-20 10:48** [chore] generator: handle edge cases
 - **2026-07-20 12:21** [refactor] config: clean up commented-out code
 - **2026-07-20 12:40** [refactor] curriculum: improve exception handling
+- **2026-07-20 14:20** [docs] data loader: update test inputs
