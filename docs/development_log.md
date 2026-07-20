@@ -91,3 +91,4 @@
 - **2026-07-18 16:42** [tweak] session store: check connection timeouts
 - **2026-07-18 17:13** [refactor] routes: adjust retry delays
 - **2026-07-20 10:48** [chore] generator: handle edge cases
+- **2026-07-20 12:21** [refactor] config: clean up commented-out code
