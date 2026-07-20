@@ -95,3 +95,4 @@
 - **2026-07-20 12:40** [refactor] curriculum: improve exception handling
 - **2026-07-20 14:20** [docs] data loader: update test inputs
 - **2026-07-20 16:15** [tweak] schemas: add metadata fields to sessions
+- **2026-07-20 17:18** [refactor] tests: clarify session transition criteria
