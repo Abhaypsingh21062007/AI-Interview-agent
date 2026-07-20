@@ -90,3 +90,4 @@
 - **2026-07-18 16:05** [docs] technical spec: adjust prompt constraints
 - **2026-07-18 16:42** [tweak] session store: check connection timeouts
 - **2026-07-18 17:13** [refactor] routes: adjust retry delays
+- **2026-07-20 10:48** [chore] generator: handle edge cases
