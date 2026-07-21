@@ -102,3 +102,4 @@
 - **2026-07-21 13:09** [docs] generator: clean up commented-out code
 - **2026-07-21 13:48** [feat] schemas: adjust retry delays
 - **2026-07-21 15:41** [tweak] candidate context: update error messages
+- **2026-07-21 16:25** [tweak] session store: add detailed docstrings
