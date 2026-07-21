@@ -100,3 +100,4 @@
 - **2026-07-21 11:25** [style] generator: update error messages
 - **2026-07-21 12:53** [fix] decision logic: adjust prompt constraints
 - **2026-07-21 13:09** [docs] generator: clean up commented-out code
+- **2026-07-21 13:48** [feat] schemas: adjust retry delays
