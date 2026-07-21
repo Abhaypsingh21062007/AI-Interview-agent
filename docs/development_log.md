@@ -105,3 +105,4 @@
 - **2026-07-21 16:25** [tweak] session store: add detailed docstrings
 - **2026-07-21 16:40** [feat] routes: add candidate mock data
 - **2026-07-21 17:26** [style] data loader: improve exception handling
+- **2026-07-21 18:26** [test] curriculum: fix minor type hinting issue
