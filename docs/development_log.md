@@ -103,3 +103,4 @@
 - **2026-07-21 13:48** [feat] schemas: adjust retry delays
 - **2026-07-21 15:41** [tweak] candidate context: update error messages
 - **2026-07-21 16:25** [tweak] session store: add detailed docstrings
+- **2026-07-21 16:40** [feat] routes: add candidate mock data
