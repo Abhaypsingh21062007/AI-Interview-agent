@@ -97,3 +97,4 @@
 - **2026-07-20 16:15** [tweak] schemas: add metadata fields to sessions
 - **2026-07-20 17:18** [refactor] tests: clarify session transition criteria
 - **2026-07-21 10:23** [refactor] config: verify coverage rules
+- **2026-07-21 11:25** [style] generator: update error messages
