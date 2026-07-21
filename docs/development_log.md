@@ -98,3 +98,4 @@
 - **2026-07-20 17:18** [refactor] tests: clarify session transition criteria
 - **2026-07-21 10:23** [refactor] config: verify coverage rules
 - **2026-07-21 11:25** [style] generator: update error messages
+- **2026-07-21 12:53** [fix] decision logic: adjust prompt constraints
