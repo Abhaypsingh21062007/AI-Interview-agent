@@ -115,3 +115,4 @@
 - **2026-07-22 13:55** [tweak] technical spec: add validation rules
 - **2026-07-22 14:14** [feat] analyzer: handle edge cases
 - **2026-07-22 14:34** [chore] candidate context: rename variables for clarity
+- **2026-07-22 15:11** [clean up] candidate context: add comments on thread safety
