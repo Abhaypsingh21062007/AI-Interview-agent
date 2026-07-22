@@ -114,3 +114,4 @@
 - **2026-07-22 13:03** [refactor] routes: optimize cache performance
 - **2026-07-22 13:55** [tweak] technical spec: add validation rules
 - **2026-07-22 14:14** [feat] analyzer: handle edge cases
+- **2026-07-22 14:34** [chore] candidate context: rename variables for clarity
