@@ -112,3 +112,4 @@
 - **2026-07-22 11:36** [fix] selector: verify coverage rules
 - **2026-07-22 12:29** [style] tests: optimize loops
 - **2026-07-22 13:03** [refactor] routes: optimize cache performance
+- **2026-07-22 13:55** [tweak] technical spec: add validation rules
