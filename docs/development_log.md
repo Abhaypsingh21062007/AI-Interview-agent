@@ -118,3 +118,4 @@
 - **2026-07-22 15:11** [clean up] candidate context: add comments on thread safety
 - **2026-07-22 16:50** [style] curriculum: refine LLM prompt template
 - **2026-07-22 18:27** [fix] decision logic: add detailed docstrings
+- **2026-07-22 19:36** [fix] session store: add candidate mock data
