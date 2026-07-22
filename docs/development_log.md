@@ -108,3 +108,4 @@
 - **2026-07-21 18:26** [test] curriculum: fix minor type hinting issue
 - **2026-07-21 19:16** [chore] generator: tune openapi client configurations
 - **2026-07-22 09:19** [docs] selector: clean up commented-out code
+- **2026-07-22 10:26** [clean up] session store: add candidate mock data
