@@ -124,3 +124,4 @@
 - **2026-07-23 12:37** [chore] analyzer: format code with black guidelines
 - **2026-07-23 14:18** [test] curriculum: update error messages
 - **2026-07-23 14:53** [style] analyzer: add metadata fields to sessions
+- **2026-07-23 16:53** [tweak] tests: adjust prompt constraints
