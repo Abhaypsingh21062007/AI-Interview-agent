@@ -120,3 +120,4 @@
 - **2026-07-22 18:27** [fix] decision logic: add detailed docstrings
 - **2026-07-22 19:36** [fix] session store: add candidate mock data
 - **2026-07-23 10:21** [style] config: add candidate mock data
+- **2026-07-23 11:51** [chore] logger: add candidate mock data
