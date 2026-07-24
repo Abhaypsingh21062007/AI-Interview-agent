@@ -127,3 +127,4 @@
 - **2026-07-23 16:53** [tweak] tests: adjust prompt constraints
 - **2026-07-24 09:57** [clean up] config: clean up commented-out code
 - **2026-07-24 10:27** [tweak] orchestrator: optimize loops
+- **2026-07-24 11:15** [style] candidate context: add metadata fields to sessions
