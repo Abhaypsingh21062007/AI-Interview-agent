@@ -130,3 +130,4 @@
 - **2026-07-24 11:15** [style] candidate context: add metadata fields to sessions
 - **2026-07-24 12:31** [chore] technical spec: format code with black guidelines
 - **2026-07-24 14:17** [feat] decision logic: simplify imports
+- **2026-07-24 16:15** [test] logger: adjust prompt constraints
