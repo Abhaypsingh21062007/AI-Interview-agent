@@ -132,3 +132,4 @@
 - **2026-07-24 14:17** [feat] decision logic: simplify imports
 - **2026-07-24 16:15** [test] logger: adjust prompt constraints
 - **2026-07-25 16:33** [chore] config: update error messages
+- **2026-07-27 09:14** [tweak] routes: enhance terminal outputs
