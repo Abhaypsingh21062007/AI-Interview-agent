@@ -137,3 +137,4 @@
 - **2026-07-27 12:07** [style] schemas: adjust prompt constraints
 - **2026-07-27 13:39** [style] tests: clarify session transition criteria
 - **2026-07-27 14:55** [fix] generator: enhance terminal outputs
+- **2026-07-27 16:15** [clean up] curriculum: format code with black guidelines
