@@ -136,3 +136,4 @@
 - **2026-07-27 10:15** [feat] candidate context: add metadata fields to sessions
 - **2026-07-27 12:07** [style] schemas: adjust prompt constraints
 - **2026-07-27 13:39** [style] tests: clarify session transition criteria
+- **2026-07-27 14:55** [fix] generator: enhance terminal outputs
