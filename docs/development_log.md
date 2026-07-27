@@ -139,3 +139,4 @@
 - **2026-07-27 14:55** [fix] generator: enhance terminal outputs
 - **2026-07-27 16:15** [clean up] curriculum: format code with black guidelines
 - **2026-07-27 17:21** [clean up] curriculum: update error messages
+- **2026-07-27 17:41** [refactor] decision logic: check connection timeouts
