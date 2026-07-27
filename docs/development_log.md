@@ -134,3 +134,4 @@
 - **2026-07-25 16:33** [chore] config: update error messages
 - **2026-07-27 09:14** [tweak] routes: enhance terminal outputs
 - **2026-07-27 10:15** [feat] candidate context: add metadata fields to sessions
+- **2026-07-27 12:07** [style] schemas: adjust prompt constraints
