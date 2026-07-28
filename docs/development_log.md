@@ -143,3 +143,4 @@
 - **2026-07-28 09:44** [clean up] technical spec: format code with black guidelines
 - **2026-07-28 11:25** [style] logger: optimize loops
 - **2026-07-28 12:46** [tweak] data loader: align types with specs
+- **2026-07-28 14:40** [tweak] generator: refine LLM prompt template
