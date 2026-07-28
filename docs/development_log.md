@@ -142,3 +142,4 @@
 - **2026-07-27 17:41** [refactor] decision logic: check connection timeouts
 - **2026-07-28 09:44** [clean up] technical spec: format code with black guidelines
 - **2026-07-28 11:25** [style] logger: optimize loops
+- **2026-07-28 12:46** [tweak] data loader: align types with specs
