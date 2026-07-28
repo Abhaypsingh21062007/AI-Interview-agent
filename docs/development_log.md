@@ -144,3 +144,4 @@
 - **2026-07-28 11:25** [style] logger: optimize loops
 - **2026-07-28 12:46** [tweak] data loader: align types with specs
 - **2026-07-28 14:40** [tweak] generator: refine LLM prompt template
+- **2026-07-28 15:14** [test] routes: rename variables for clarity
