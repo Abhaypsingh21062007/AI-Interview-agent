@@ -148,3 +148,4 @@
 - **2026-07-28 15:42** [tweak] decision logic: handle edge cases
 - **2026-07-28 16:48** [tweak] orchestrator: add comments on thread safety
 - **2026-07-28 18:12** [clean up] logger: improve exception handling
+- **2026-07-28 18:59** [style] routes: add comments on thread safety
