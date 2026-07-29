@@ -156,3 +156,4 @@
 - **2026-07-29 13:05** [refactor] logger: optimize loops
 - **2026-07-29 15:02** [tweak] candidate context: update test inputs
 - **2026-07-29 16:22** [refactor] data loader: format code with black guidelines
+- **2026-07-29 17:10** [tweak] decision logic: add comments on thread safety
