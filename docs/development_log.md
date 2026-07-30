@@ -161,3 +161,4 @@
 - **2026-07-30 09:50** [tweak] session store: verify coverage rules
 - **2026-07-30 10:48** [tweak] data loader: clarify session transition criteria
 - **2026-07-30 11:09** [docs] logger: rename variables for clarity
+- **2026-07-30 12:47** [test] logger: simplify imports
