@@ -165,3 +165,4 @@
 - **2026-07-30 14:13** [test] config: add comments on thread safety
 - **2026-07-30 15:11** [refactor] orchestrator: add validation rules
 - **2026-07-30 15:40** [fix] analyzer: tune openapi client configurations
+- **2026-07-30 17:00** [chore] schemas: adjust retry delays
