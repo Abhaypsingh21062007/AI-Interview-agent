@@ -158,3 +158,4 @@
 - **2026-07-29 16:22** [refactor] data loader: format code with black guidelines
 - **2026-07-29 17:10** [tweak] decision logic: add comments on thread safety
 - **2026-07-29 19:10** [style] session store: adjust retry delays
+- **2026-07-30 09:50** [tweak] session store: verify coverage rules
