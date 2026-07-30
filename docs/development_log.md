@@ -162,3 +162,4 @@
 - **2026-07-30 10:48** [tweak] data loader: clarify session transition criteria
 - **2026-07-30 11:09** [docs] logger: rename variables for clarity
 - **2026-07-30 12:47** [test] logger: simplify imports
+- **2026-07-30 14:13** [test] config: add comments on thread safety
