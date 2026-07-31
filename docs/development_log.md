@@ -169,3 +169,4 @@
 - **2026-07-30 17:33** [chore] technical spec: format code with black guidelines
 - **2026-07-30 19:31** [clean up] logger: check connection timeouts
 - **2026-07-31 10:24** [style] config: add validation rules
+- **2026-07-31 10:52** [refactor] routes: update test inputs
