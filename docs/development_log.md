@@ -171,3 +171,4 @@
 - **2026-07-31 10:24** [style] config: add validation rules
 - **2026-07-31 10:52** [refactor] routes: update test inputs
 - **2026-07-31 11:47** [tweak] generator: add detailed docstrings
+- **2026-07-31 12:11** [chore] selector: add comments on thread safety
