@@ -173,3 +173,4 @@
 - **2026-07-31 11:47** [tweak] generator: add detailed docstrings
 - **2026-07-31 12:11** [chore] selector: add comments on thread safety
 - **2026-07-31 13:23** [docs] schemas: add detailed docstrings
+- **2026-07-31 14:30** [feat] data loader: update error messages
