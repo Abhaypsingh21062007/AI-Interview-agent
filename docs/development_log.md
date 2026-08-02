@@ -176,3 +176,4 @@
 - **2026-07-31 14:30** [feat] data loader: update error messages
 - **2026-07-31 16:19** [chore] session store: rename variables for clarity
 - **2026-08-01 17:23** [clean up] generator: add comments on thread safety
+- **2026-08-02 17:48** [fix] orchestrator: tune openapi client configurations
