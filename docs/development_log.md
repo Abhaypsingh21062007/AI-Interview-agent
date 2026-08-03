@@ -183,3 +183,4 @@
 - **2026-08-03 12:47** [chore] routes: update error messages
 - **2026-08-03 13:46** [feat] session store: adjust retry delays
 - **2026-08-03 15:35** [refactor] routes: adjust prompt constraints
+- **2026-08-03 17:03** [refactor] decision logic: optimize cache performance
