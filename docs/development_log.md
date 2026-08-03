@@ -178,3 +178,4 @@
 - **2026-08-01 17:23** [clean up] generator: add comments on thread safety
 - **2026-08-02 17:48** [fix] orchestrator: tune openapi client configurations
 - **2026-08-03 09:00** [test] generator: add candidate mock data
+- **2026-08-03 10:14** [test] technical spec: verify coverage rules
