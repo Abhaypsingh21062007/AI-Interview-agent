@@ -185,3 +185,4 @@
 - **2026-08-03 15:35** [refactor] routes: adjust prompt constraints
 - **2026-08-03 17:03** [refactor] decision logic: optimize cache performance
 - **2026-08-03 18:04** [feat] orchestrator: add comments on thread safety
+- **2026-08-04 09:13** [feat] decision logic: enhance terminal outputs
