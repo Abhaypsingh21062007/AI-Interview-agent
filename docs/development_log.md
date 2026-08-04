@@ -189,3 +189,4 @@
 - **2026-08-04 11:10** [refactor] tests: improve exception handling
 - **2026-08-04 12:56** [chore] curriculum: refine LLM prompt template
 - **2026-08-04 13:34** [test] selector: improve exception handling
+- **2026-08-04 15:04** [clean up] tests: clarify session transition criteria
