@@ -190,3 +190,4 @@
 - **2026-08-04 12:56** [chore] curriculum: refine LLM prompt template
 - **2026-08-04 13:34** [test] selector: improve exception handling
 - **2026-08-04 15:04** [clean up] tests: clarify session transition criteria
+- **2026-08-04 16:08** [tweak] candidate context: improve exception handling
