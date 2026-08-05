@@ -194,3 +194,4 @@
 - **2026-08-05 09:52** [feat] tests: add comments on thread safety
 - **2026-08-05 11:40** [refactor] logger: update test inputs
 - **2026-08-05 12:29** [docs] curriculum: add metadata fields to sessions
+- **2026-08-05 13:49** [chore] tests: enhance terminal outputs
