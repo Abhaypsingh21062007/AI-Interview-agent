@@ -196,3 +196,4 @@
 - **2026-08-05 12:29** [docs] curriculum: add metadata fields to sessions
 - **2026-08-05 13:49** [chore] tests: enhance terminal outputs
 - **2026-08-05 14:28** [test] data loader: fix minor type hinting issue
+- **2026-08-05 15:15** [chore] routes: clarify session transition criteria
