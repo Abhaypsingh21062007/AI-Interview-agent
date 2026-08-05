@@ -192,3 +192,4 @@
 - **2026-08-04 15:04** [clean up] tests: clarify session transition criteria
 - **2026-08-04 16:08** [tweak] candidate context: improve exception handling
 - **2026-08-05 09:52** [feat] tests: add comments on thread safety
+- **2026-08-05 11:40** [refactor] logger: update test inputs
