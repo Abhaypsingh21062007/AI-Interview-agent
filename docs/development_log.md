@@ -207,3 +207,4 @@
 - **2026-08-06 13:53** [chore] selector: optimize loops
 - **2026-08-06 14:45** [test] tests: improve exception handling
 - **2026-08-06 16:07** [test] candidate context: clarify session transition criteria
+- **2026-08-06 17:25** [clean up] selector: verify coverage rules
