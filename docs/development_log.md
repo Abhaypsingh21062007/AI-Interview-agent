@@ -200,3 +200,4 @@
 - **2026-08-05 15:37** [fix] session store: clean up commented-out code
 - **2026-08-05 16:38** [docs] candidate context: add detailed docstrings
 - **2026-08-06 09:07** [test] logger: improve logging structure
+- **2026-08-06 10:07** [test] logger: tune openapi client configurations
