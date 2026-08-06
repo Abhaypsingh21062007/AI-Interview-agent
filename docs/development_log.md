@@ -208,3 +208,4 @@
 - **2026-08-06 14:45** [test] tests: improve exception handling
 - **2026-08-06 16:07** [test] candidate context: clarify session transition criteria
 - **2026-08-06 17:25** [clean up] selector: verify coverage rules
+- **2026-08-06 18:19** [refactor] analyzer: format code with black guidelines
