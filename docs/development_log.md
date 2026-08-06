@@ -206,3 +206,4 @@
 - **2026-08-06 12:17** [style] session store: clarify session transition criteria
 - **2026-08-06 13:53** [chore] selector: optimize loops
 - **2026-08-06 14:45** [test] tests: improve exception handling
+- **2026-08-06 16:07** [test] candidate context: clarify session transition criteria
