@@ -203,3 +203,4 @@
 - **2026-08-06 10:07** [test] logger: tune openapi client configurations
 - **2026-08-06 10:25** [tweak] candidate context: align types with specs
 - **2026-08-06 10:42** [refactor] logger: enhance terminal outputs
+- **2026-08-06 12:17** [style] session store: clarify session transition criteria
