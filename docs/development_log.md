@@ -213,3 +213,4 @@
 - **2026-08-07 10:07** [refactor] config: optimize cache performance
 - **2026-08-07 10:58** [fix] curriculum: handle edge cases
 - **2026-08-07 12:26** [feat] routes: enhance terminal outputs
+- **2026-08-07 13:04** [fix] technical spec: add comments on thread safety
