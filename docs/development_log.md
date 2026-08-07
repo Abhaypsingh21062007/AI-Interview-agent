@@ -211,3 +211,4 @@
 - **2026-08-06 18:19** [refactor] analyzer: format code with black guidelines
 - **2026-08-07 09:44** [feat] generator: rename variables for clarity
 - **2026-08-07 10:07** [refactor] config: optimize cache performance
+- **2026-08-07 10:58** [fix] curriculum: handle edge cases
