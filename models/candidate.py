@@ -162,7 +162,24 @@ def build_candidate_context(
             curriculum=day_meta,
         )
 
+    present_days = {m.day for m in candidate_raw.missions}
     enriched_missions = [_enrich_mission(m) for m in candidate_raw.missions]
+
+    # Fill in any missing curriculum days as skipped / conceptual gaps
+    for day_num in range(1, 32):
+        if day_num not in present_days:
+            day_meta_raw = curriculum.get_day(day_num)
+            day_meta = CurriculumDayMeta(**day_meta_raw) if day_meta_raw else None
+            enriched_missions.append(
+                EnrichedMission(
+                    day=day_num,
+                    title=day_meta.title if day_meta else f"Day {day_num}",
+                    passed=False,
+                    attempts=None,
+                    skipped=True,
+                    curriculum=day_meta,
+                )
+            )
 
     passed_with_struggle = [
         em for em in enriched_missions
