@@ -13,11 +13,12 @@ Routes:
 
 from __future__ import annotations
 
-from fastapi import APIRouter
+from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 
 from data.loader import CurriculumLoader, CandidateLoader
 from sessions.store import session_store
+from models.candidate import CandidateRaw
 
 router = APIRouter()
 
@@ -105,6 +106,24 @@ async def list_candidates() -> list[CandidateSummary]:
             )
         )
     return results
+
+
+@router.get(
+    "/candidates/{candidate_id}",
+    response_model=CandidateRaw,
+    summary="Get full candidate profile by ID (dev only)",
+    tags=["Dev"],
+)
+async def get_candidate(candidate_id: str) -> CandidateRaw:
+    """
+    Returns the full, raw candidate profile by ID.
+    Used by the demo frontend to initialize start payloads.
+    """
+    loader = CandidateLoader.instance()
+    cand = loader.get_candidate(candidate_id)
+    if not cand:
+        raise HTTPException(status_code=404, detail=f"Candidate '{candidate_id}' not found")
+    return CandidateRaw(**cand)
 
 
 @router.get(

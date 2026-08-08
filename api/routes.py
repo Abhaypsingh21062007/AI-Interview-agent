@@ -109,6 +109,11 @@ async def interview_endpoint(payload: InterviewRequest) -> InterviewResponse:
     # CONVERSATION TURN — message payload present
     # ------------------------------------------------------------------
     if payload.message is not None:
+        if len(payload.message) > 2000:
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail="Message is too long. Maximum allowed length is 2000 characters."
+            )
         try:
             state = session_store.get_or_raise(payload.sessionId)
         except KeyError as exc:
