@@ -147,6 +147,7 @@ def main() -> None:
         
     c004 = next(c for c in candidates_list if c["member"]["id"] == "c004")
     c006 = next(c for c in candidates_list if c["member"]["id"] == "c006")
+    c013 = next(c for c in candidates_list if c["member"]["id"] == "c013")
     
     # Start FastAPI server dynamically
     port = find_free_port()
@@ -209,6 +210,9 @@ def main() -> None:
         
         # Sim 2: Candidate Alex Thompson
         log_c006 = run_interview_sim(api_url, c006, sim_answers)
+
+        # Sim 3: Candidate Emma Liu
+        log_c013 = run_interview_sim(api_url, c013, sim_answers)
         
         print("\n" + "=" * 80)
         print("ALL END-TO-END INTEGRATION TESTS PASSED SUCCESSFULLY!")
