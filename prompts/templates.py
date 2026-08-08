@@ -156,3 +156,49 @@ Evaluation/Hint:
 Goal:
 Generate a conversational, probing follow-up question. Do not repeat your last question. Target the specific gap or detail identified in the Probing Goal. Keep the tone curious, collaborative, and professional.
 """
+
+
+def get_feedback_synthesis_prompt(brief: StrategyBrief, qas: list[dict]) -> str:
+    """Generate the user prompt for synthesizing structured feedback."""
+    qa_lines = []
+    for idx, qa in enumerate(qas):
+        qa_lines.append(
+            f"Question {idx+1} (Day {qa['day']}: {qa['topic']}):\n"
+            f"Interviewer: {qa['question']}\n"
+            f"Candidate: {qa['answer']}\n"
+        )
+    qas_text = "\n".join(qa_lines)
+
+    return f"""
+You are a senior technical interviewer synthesizing final feedback for a candidate who just completed a technical interview.
+
+Candidate Info:
+- Name: {brief.candidate_name}
+- Job Role: {brief.job_role}
+- Experience: {brief.years_experience} years
+- Education: {brief.education}
+
+Candidate Profile Signals (Pre-Interview):
+- Strengths (first-try passes): {', '.join(map(str, brief.strengths)) if brief.strengths else 'None'}
+- Struggles (attempts >= 3): {', '.join(map(str, brief.struggles)) if brief.struggles else 'None'}
+- Gaps (skipped days): {', '.join(map(str, brief.gaps)) if brief.gaps else 'None'}
+
+Dialogue Transcript:
+{qas_text}
+
+Analyze the dialogue transcript above and generate structured feedback for this candidate.
+Your feedback must be highly specific, candidate-aware, and grounded in the actual conversation:
+
+1. "summary": A 2-4 sentence written debrief. Mention their role fit (e.g. {brief.job_role}), their communication style, and the depth of technical understanding they demonstrated in this conversation.
+2. "strengths": A list of 2-3 concrete, evidence-based bullets. Each bullet must tie to a specific topic/day from the dialogue and mention what correct details or explanations they provided (do not use generic praise).
+3. "gaps": A list of 2-3 honest, specific bullets. Focus on weaknesses or gaps revealed in the conversation (e.g. shallow answers, errors, or topics they struggled to explain when prompted) over just restating profile details.
+4. "next": A list of 2-3 actionable, forward-looking recommendations. Make them highly concrete (e.g. reference specific curriculum day topics or tools and suggest what they should review or practice).
+
+You must respond with a JSON object conforming exactly to this schema:
+{{
+  "summary": "...",
+  "strengths": ["...", "..."],
+  "gaps": ["...", "..."],
+  "next": ["...", "..."]
+}}
+"""
