@@ -1,0 +1,355 @@
+{
+  "modules": [
+    { "n": 1, "title": "Environment & Tooling", "days": [1, 4] },
+    { "n": 2, "title": "Data Foundations", "days": [5, 8] },
+    { "n": 3, "title": "Embeddings & Vector Search", "days": [9, 13] },
+    { "n": 4, "title": "LLM Core / Prompting / Fine-Tuning", "days": [14, 18] },
+    { "n": 5, "title": "Chatbot Application Build", "days": [19, 22] },
+    { "n": 6, "title": "Agentic AI & MCP", "days": [23, 26] },
+    { "n": 7, "title": "Evaluation / Security / Deployment", "days": [27, 29] },
+    { "n": 8, "title": "Production & Capstone", "days": [30, 31] }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Environment Setup & Python Tooling",
+      "type": "SETUP",
+      "tools": ["pyenv", "venv", "pip", "VS Code", "git"],
+      "objectives": [
+        "Set up a reproducible Python environment",
+        "Understand virtual environments and dependency management",
+        "Configure VS Code for AI development"
+      ]
+    },
+    {
+      "day": 2,
+      "title": "Git, GitHub & Collaboration Workflows",
+      "type": "SETUP",
+      "tools": ["git", "GitHub", "GitHub Actions"],
+      "objectives": [
+        "Master Git branching strategies",
+        "Understand CI/CD pipelines",
+        "Collaborate effectively using pull requests"
+      ]
+    },
+    {
+      "day": 3,
+      "title": "FastAPI & REST API Design",
+      "type": "BUILD",
+      "tools": ["FastAPI", "Pydantic", "uvicorn", "httpx"],
+      "objectives": [
+        "Build RESTful APIs with FastAPI",
+        "Define request/response schemas with Pydantic",
+        "Handle async operations in Python"
+      ]
+    },
+    {
+      "day": 4,
+      "title": "Docker & Containerization",
+      "type": "BUILD",
+      "tools": ["Docker", "docker-compose", "Dockerfile"],
+      "objectives": [
+        "Containerize Python applications",
+        "Manage multi-service apps with docker-compose",
+        "Understand container networking"
+      ]
+    },
+    {
+      "day": 5,
+      "title": "Data Ingestion & Preprocessing",
+      "type": "BUILD",
+      "tools": ["pandas", "polars", "json", "csv"],
+      "objectives": [
+        "Load and clean structured/unstructured data",
+        "Build data pipelines",
+        "Handle missing values and outliers"
+      ]
+    },
+    {
+      "day": 6,
+      "title": "SQL & NoSQL Fundamentals",
+      "type": "BUILD",
+      "tools": ["PostgreSQL", "SQLite", "MongoDB", "SQLAlchemy"],
+      "objectives": [
+        "Design relational database schemas",
+        "Write complex SQL queries",
+        "Understand when to use NoSQL"
+      ]
+    },
+    {
+      "day": 7,
+      "title": "Text Processing & NLP Basics",
+      "type": "BUILD",
+      "tools": ["spaCy", "NLTK", "regex", "tokenizers"],
+      "objectives": [
+        "Tokenize and normalize text",
+        "Extract named entities",
+        "Build a basic NLP pipeline"
+      ]
+    },
+    {
+      "day": 8,
+      "title": "Data Validation & Quality",
+      "type": "BUILD",
+      "tools": ["Pydantic", "Great Expectations", "pandera"],
+      "objectives": [
+        "Validate data schemas at runtime",
+        "Write data quality checks",
+        "Handle validation errors gracefully"
+      ]
+    },
+    {
+      "day": 9,
+      "title": "Embeddings Fundamentals",
+      "type": "BUILD",
+      "tools": ["sentence-transformers", "OpenAI embeddings", "numpy"],
+      "objectives": [
+        "Understand word and sentence embeddings",
+        "Generate embeddings for text",
+        "Measure semantic similarity"
+      ]
+    },
+    {
+      "day": 10,
+      "title": "Vector Databases: Pinecone & ChromaDB",
+      "type": "BUILD",
+      "tools": ["Pinecone", "ChromaDB", "FAISS"],
+      "objectives": [
+        "Store and retrieve vector embeddings",
+        "Understand approximate nearest neighbor search",
+        "Choose the right vector DB for a use case"
+      ]
+    },
+    {
+      "day": 11,
+      "title": "Retrieval-Augmented Generation (RAG) Basics",
+      "type": "BUILD",
+      "tools": ["LangChain", "ChromaDB", "OpenAI"],
+      "objectives": [
+        "Build a basic RAG pipeline",
+        "Chunk and embed documents",
+        "Retrieve relevant context for LLM queries"
+      ]
+    },
+    {
+      "day": 12,
+      "title": "Advanced RAG Patterns",
+      "type": "BUILD",
+      "tools": ["LlamaIndex", "rerankers", "HyDE"],
+      "objectives": [
+        "Implement re-ranking strategies",
+        "Use hypothetical document embeddings",
+        "Evaluate retrieval quality"
+      ]
+    },
+    {
+      "day": 13,
+      "title": "Multimodal Embeddings",
+      "type": "CONCEPT",
+      "tools": ["CLIP", "OpenAI vision", "PIL"],
+      "objectives": [
+        "Understand multimodal embedding spaces",
+        "Embed images alongside text",
+        "Build a multimodal search system"
+      ]
+    },
+    {
+      "day": 14,
+      "title": "LLM Architecture Deep Dive",
+      "type": "CONCEPT",
+      "tools": ["transformers", "Hugging Face", "attention visualization"],
+      "objectives": [
+        "Understand transformer architecture",
+        "Explain attention mechanisms",
+        "Compare GPT vs BERT paradigms"
+      ]
+    },
+    {
+      "day": 15,
+      "title": "Prompt Engineering Fundamentals",
+      "type": "BUILD",
+      "tools": ["OpenAI API", "Anthropic API", "PromptLayer"],
+      "objectives": [
+        "Write effective zero-shot and few-shot prompts",
+        "Use chain-of-thought prompting",
+        "Avoid common prompt pitfalls"
+      ]
+    },
+    {
+      "day": 16,
+      "title": "Advanced Prompting: CoT, ReAct, ToT",
+      "type": "BUILD",
+      "tools": ["LangChain", "DSPy", "OpenAI"],
+      "objectives": [
+        "Implement ReAct prompting patterns",
+        "Build tree-of-thought reasoning",
+        "Optimize prompts systematically with DSPy"
+      ]
+    },
+    {
+      "day": 17,
+      "title": "Fine-Tuning LLMs",
+      "type": "BUILD",
+      "tools": ["LoRA", "QLoRA", "Hugging Face PEFT", "Unsloth"],
+      "objectives": [
+        "Fine-tune a model with LoRA",
+        "Prepare and format training datasets",
+        "Evaluate fine-tuned model quality"
+      ]
+    },
+    {
+      "day": 18,
+      "title": "Model Selection & Cost Optimization",
+      "type": "CONCEPT",
+      "tools": ["OpenRouter", "LiteLLM", "Helicone"],
+      "objectives": [
+        "Compare model capabilities vs cost",
+        "Route requests to optimal models",
+        "Monitor and control LLM spending"
+      ]
+    },
+    {
+      "day": 19,
+      "title": "Chatbot Architecture & State Management",
+      "type": "BUILD",
+      "tools": ["LangChain", "Redis", "FastAPI"],
+      "objectives": [
+        "Design multi-turn conversation flows",
+        "Manage conversation history",
+        "Build stateful chatbot backends"
+      ]
+    },
+    {
+      "day": 20,
+      "title": "Streaming Responses & WebSockets",
+      "type": "BUILD",
+      "tools": ["FastAPI", "WebSockets", "Server-Sent Events"],
+      "objectives": [
+        "Stream LLM responses to the frontend",
+        "Implement WebSocket connections",
+        "Handle streaming errors gracefully"
+      ]
+    },
+    {
+      "day": 21,
+      "title": "Frontend Integration for AI Apps",
+      "type": "BUILD",
+      "tools": ["React", "Vercel AI SDK", "shadcn/ui"],
+      "objectives": [
+        "Build a chat UI with React",
+        "Integrate streaming with frontend",
+        "Deploy a full-stack AI app"
+      ]
+    },
+    {
+      "day": 22,
+      "title": "Memory Systems & Personalization",
+      "type": "BUILD",
+      "tools": ["Mem0", "Redis", "PostgreSQL pgvector"],
+      "objectives": [
+        "Implement short and long-term memory",
+        "Personalize responses based on user history",
+        "Store and retrieve memories efficiently"
+      ]
+    },
+    {
+      "day": 23,
+      "title": "Agentic AI Fundamentals",
+      "type": "CONCEPT",
+      "tools": ["LangGraph", "AutoGen", "CrewAI"],
+      "objectives": [
+        "Understand the agent loop: observe-think-act",
+        "Design tool-using agents",
+        "Compare agentic frameworks"
+      ]
+    },
+    {
+      "day": 24,
+      "title": "Tool Use & Function Calling",
+      "type": "BUILD",
+      "tools": ["OpenAI function calling", "LangChain tools", "Pydantic"],
+      "objectives": [
+        "Define and register tools for LLMs",
+        "Handle tool call outputs",
+        "Build multi-tool agents"
+      ]
+    },
+    {
+      "day": 25,
+      "title": "Multi-Agent Systems",
+      "type": "BUILD",
+      "tools": ["LangGraph", "CrewAI", "AutoGen"],
+      "objectives": [
+        "Design agent orchestration patterns",
+        "Implement supervisor and worker agents",
+        "Handle agent communication and handoffs"
+      ]
+    },
+    {
+      "day": 26,
+      "title": "Model Context Protocol (MCP)",
+      "type": "BUILD",
+      "tools": ["MCP SDK", "Claude", "custom MCP servers"],
+      "objectives": [
+        "Understand the MCP specification",
+        "Build a custom MCP server",
+        "Connect agents to external tools via MCP"
+      ]
+    },
+    {
+      "day": 27,
+      "title": "LLM Evaluation & Benchmarking",
+      "type": "BUILD",
+      "tools": ["RAGAS", "DeepEval", "LangSmith"],
+      "objectives": [
+        "Evaluate RAG systems with RAGAS",
+        "Write custom evaluation metrics",
+        "Set up LLM observability with LangSmith"
+      ]
+    },
+    {
+      "day": 28,
+      "title": "AI Safety, Red-Teaming & Guardrails",
+      "type": "CONCEPT",
+      "tools": ["Guardrails AI", "NeMo Guardrails", "Garak"],
+      "objectives": [
+        "Identify common LLM vulnerabilities",
+        "Implement input/output guardrails",
+        "Red-team your own AI application"
+      ]
+    },
+    {
+      "day": 29,
+      "title": "Production Deployment: Cloud & Serverless",
+      "type": "BUILD",
+      "tools": ["AWS Lambda", "Google Cloud Run", "Modal", "Railway"],
+      "objectives": [
+        "Deploy FastAPI to Cloud Run",
+        "Set up auto-scaling for AI workloads",
+        "Manage secrets and environment variables"
+      ]
+    },
+    {
+      "day": 30,
+      "title": "Monitoring, Logging & Observability",
+      "type": "BUILD",
+      "tools": ["Prometheus", "Grafana", "Langfuse", "Sentry"],
+      "objectives": [
+        "Set up structured logging for AI apps",
+        "Monitor LLM latency and costs",
+        "Create observability dashboards"
+      ]
+    },
+    {
+      "day": 31,
+      "title": "Capstone Project Demo & Retrospective",
+      "type": "CAPSTONE",
+      "tools": ["all cohort tools"],
+      "objectives": [
+        "Present a complete AI application",
+        "Articulate technical decisions made",
+        "Give and receive constructive feedback"
+      ]
+    }
+  ]
+}
